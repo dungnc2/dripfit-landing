@@ -31,6 +31,21 @@ $(document).ready(()=>
                                 value[2].placeholder = `Vui lòng nhập thông tin`
                                 value[2].classList.add(`red`)
                             } 
+                            // if (value[3].value == ``) {
+                            //     check = false
+                            //     value[3].placeholder = `Vui lòng nhập thông tin`
+                            //     value[3].classList.add(`red`)
+                            // } 
+                            // if (value[4].value == ``) {
+                            //     check = false
+                            //     value[4].placeholder = `Vui lòng nhập thông tin`
+                            //     value[4].classList.add(`red`)
+                            // } 
+                            // if (value[5].value == ``) {
+                            //     check = false
+                            //     value[5].placeholder = `Vui lòng nhập thông tin`
+                            //     value[5].classList.add(`red`)
+                            // } 
                             
 
                             if (check) {

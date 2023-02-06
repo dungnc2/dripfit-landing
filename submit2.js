@@ -31,11 +31,26 @@ $(document).ready(()=>
                                 value[2].placeholder = `Vui lòng nhập thông tin`
                                 value[2].classList.add(`red`)
                             } 
+                            if (value[3].value == ``) {
+                                check = false
+                                value[3].placeholder = `Vui lòng nhập thông tin`
+                                value[3].classList.add(`red`)
+                            } 
+                            if (value[4].value == ``) {
+                                check = false
+                                value[4].placeholder = `Vui lòng nhập thông tin`
+                                value[4].classList.add(`red`)
+                            } 
+                            if (value[5].value == ``) {
+                                check = false
+                                value[5].placeholder = `Vui lòng nhập thông tin`
+                                value[5].classList.add(`red`)
+                            } 
                             if (check) {
                                 
                                 $.ajax({
                                                 type : 'POST', 
-                                                url : 'https://script.google.com/macros/s/AKfycbyGK5PUXG6kzTo5r0W5AT5qbUJnOqqfHGxEJuaYJJc4dVCtIhSZjAp6ONjvxrrMDtne/exec',
+                                                url : 'https://script.google.com/macros/s/AKfycbwY5oCg8hyfhcl1KejJfYcvPZrgJ7ciH7t6VVZX9VvZ9WKQLk2eBJVF5Bfx8hh6_n0Pyg/exec',
                                                 dataType:'json',
                                                 crossDomain : true,
                                                 data : data,
