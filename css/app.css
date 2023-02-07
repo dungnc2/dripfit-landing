@@ -607,6 +607,10 @@ a {
       .content4 iframe {
         width: 360px;
         height: calc(360px/16*9); } }
+    @media (max-width: 360px) {
+      .content4 iframe {
+        width: 300px;
+        height: calc(300px/16*9); } }
 
 .content5 #slide5mb .carousel-inner .carousel-item img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -632,6 +636,11 @@ a {
   padding-right: 30px; }
   .content6 .title {
     text-align: center; }
+    @media (max-width: 1458px) {
+      .content6 .title h2 {
+        font-size: 25px; }
+      .content6 .title span {
+        font-size: 30px; } }
     @media (max-width: 850px) {
       .content6 .title h2 {
         font-size: 19px; }
@@ -644,7 +653,7 @@ a {
     width: 20px;
     height: 31px; }
   .content6 .slider .carousel-inner .title {
-    height: 180px; }
+    height: 190px; }
     .content6 .slider .carousel-inner .title h2 {
       font-size: 30px; }
     .content6 .slider .carousel-inner .title p {
@@ -848,11 +857,14 @@ a {
       margin-bottom: 15px; }
     .content9-form label {
       margin-top: 8px;
+      margin-bottom: 4.1px;
       color: white;
       font-weight: 400;
       font-size: 13.3333px;
-      margin-bottom: 4.1px;
-      display: block; }
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
     .content9-form input[type=number]::-webkit-inner-spin-button,
     .content9-form input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
@@ -900,14 +912,49 @@ a {
         font-size: 8px; }
       .content9-form p {
         font-size: 9px; } }
+    @media (max-width: 1515px) {
+      .content9-form ul {
+        font-size: 8px;
+        margin-bottom: 8px; }
+      .content9-form input {
+        font-size: 8px; }
+      .content9-form button {
+        font-size: 8px; }
+      .content9-form label {
+        font-size: 6px; }
+      .content9-form p {
+        font-size: 10px; }
+      .content9-form input::placeholder {
+        font-size: 10px; }
+      .content9-form h2 {
+        font-size: 15px; }
+      .content9-form span {
+        font-size: 20px; }
+      .content9-form h4 {
+        font-size: 25px; }
+      .content9-form h5 {
+        font-size: 15px; } }
   .content9 .row {
-    top: 50%;
-    transform: translateY(-50%); }
+    bottom: 50%;
+    transform: translateY(50%); }
     @media (max-width: 992px) {
       .content9 .row {
         margin: 0 auto;
-        top: 30%;
+        bottom: 10%;
         transform: translateY(0%); }
+        .content9 .row h4 {
+          right: 0;
+          font-family: 'UVF Blenda Script';
+          color: white;
+          font-size: 45px;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+        .content9 .row h5 {
+          right: 0;
+          text-transform: none;
+          color: white;
+          font-family: 'UVF Blenda Script';
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 24px; }
         .content9 .row h2 {
           font-size: 25.8676px; }
         .content9 .row span {
@@ -925,27 +972,39 @@ a {
           font-size: 15px; }
         .content9 .row form {
           margin: 0 auto; } }
-    @media (max-width: 420px) {
-      .content9 .row h2 {
-        font-size: 21px; }
-      .content9 .row span {
-        font-size: 27px; }
-      .content9 .row .padding9 {
-        padding-left: 10px; }
-      .content9 .row h4 {
-        font-size: 41px; }
+    @media (max-width: 450px) {
+      .content9 .row {
+        bottom: 1%; }
+        .content9 .row h2 {
+          font-size: 21px; }
+        .content9 .row span {
+          font-size: 27px; }
+        .content9 .row .padding9 {
+          padding-left: 10px; }
+        .content9 .row h4 {
+          font-size: 41px; }
+        .content9 .row ul {
+          font-size: 12.8673px;
+          margin-bottom: 10px; }
+        .content9 .row input {
+          font-size: 12.6171px;
+          height: 35px; }
+        .content9 .row button {
+          font-size: 14.059px; }
+        .content9 .row label {
+          font-size: 11.7158px;
+          margin: 2px auto; }
+        .content9 .row p {
+          font-size: 12.6171px; } }
+    @media (max-width: 374px) {
       .content9 .row ul {
-        font-size: 12.8673px;
-        margin-bottom: 10px; }
+        font-size: 11.8673px;
+        margin-bottom: 8px; }
       .content9 .row input {
-        font-size: 12.6171px;
-        height: 35px; }
+        font-size: 11.6171px;
+        height: 33px; }
       .content9 .row button {
-        font-size: 14.059px; }
-      .content9 .row label {
-        font-size: 11.7158px; }
-      .content9 .row p {
-        font-size: 12.6171px; } }
+        font-size: 12.059px; } }
 
 .content85-slide .carousel {
   background-image: url("../img/bg85mb.jpg");
