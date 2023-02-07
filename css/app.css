@@ -190,6 +190,11 @@ a {
   box-sizing: border-box;
   width: 100%;
   padding: 22px 0px; }
+  @media (max-width: 500px) {
+    .header-logo .img1 {
+      width: 92px; }
+    .header-logo .img2 {
+      width: 130px; } }
   .header-social {
     height: 40.83px;
     width: 424px; }
